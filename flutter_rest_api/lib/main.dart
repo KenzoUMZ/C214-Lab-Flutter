@@ -41,6 +41,7 @@ class Album {
 
 void main() => runApp(const MyApp());
 
+
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -77,7 +78,6 @@ class _MyAppState extends State<MyApp> {
               } else if (snapshot.hasError) {
                 return Text('${snapshot.error}');
               }
-
               // By default, show a loading spinner.
               return const CircularProgressIndicator();
             },
