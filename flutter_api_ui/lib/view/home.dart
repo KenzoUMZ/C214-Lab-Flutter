@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter_api_ui/controller/fetchAlbum.dart';
 import 'package:flutter_api_ui/model/album.dart';
-import 'package:auto_size_text/auto_size_text.dart';
+import 'package:auto_size_text/auto_size_text.dart'; // tamanho automatico do texto
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart'; // Fontes personalizadas
 import 'package:http/http.dart' as http;
 
 class Home extends StatefulWidget {
