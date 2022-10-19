@@ -8,7 +8,7 @@ O projeto deverá conter o arquivo devidamente criado com as dependências utili
 ## 3 - README
 O repositório deverá conter um arquivo README.md com absolutamente todas as intruções necessárias para se rodar o projeto, ambiente de desenvolvimento, linhas de comando  e todas as outras ferramentas e artifícios necessários para se executar o projeto.
 ## 4 - Testes unitários
-A aplicação deverá conter ao menos 15 casos de teste com 3 deles sendo de um cenário negativo
+A aplicação deverá conter ao menos 15 casos de teste com 3 deles sendo de um cenário negativo. Caso a aplicação consuma dados de um serviço externo como uma API, o projeto deverá conter testes mock.
 ## 5 - CI/CD
 No repositório deverá ser implementado uma pipeline que execute todos os testes e verificações necessárias para garantir que sua aplicação está funcionando. Este arquivo de teste também deverá ser mostrado em forma de Badge no arquivo README.
 ## 6 - Linguagem
